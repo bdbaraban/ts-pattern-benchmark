@@ -144,5 +144,6 @@ suite(
   cycle(),
   complete(),
   save(),
+  save({ format: 'table.html' }),
   save({ format: 'chart.html' }),
 );
