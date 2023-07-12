@@ -11,3 +11,5 @@
     </tr><tr><td>ternary</td><td>1041806040</td><td>0.17</td><td>0</td></tr>
   </tbody>
 </table>
+
+![ts-pattern-benchmark](https://github.com/bdbaraban/ts-pattern-benchmark/assets/34765317/a2fc6292-1dba-433a-9bc7-72f2af9b889a)
