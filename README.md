@@ -1,3 +1,12 @@
+# Usage
+
+```
+npm install
+npm run test
+```
+
+# Results
+
 - [ts-pattern](https://github.com/gvergnaud/ts-pattern) v5.0.1
 - [TypeScript](https://github.com/microsoft/TypeScript) v5.1.6
 
@@ -28,27 +37,4 @@ Finished 6 cases!
   Slowest: .run()
 ```
 
-<table>
-  <thead>
-    <tr>
-      <th>name</th><th>ops</th><th>margin</th><th>percentSlower</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>.exhaustive()</td><td>1440678</td><td>0.77</td><td>99.86</td>
-    </tr><tr>
-      <td>.otherwise()</td><td>1482380</td><td>0.67</td><td>99.86</td>
-    </tr><tr>
-      <td>.run()</td><td>1313796</td><td>0.22</td><td>99.87</td>
-    </tr><tr>
-      <td>if/else</td><td>1039743389</td><td>0.14</td><td>0</td>
-    </tr><tr>
-      <td>switch</td><td>1033490278</td><td>0.4</td><td>0.6</td>
-    </tr><tr>
-      <td>ternary</td><td>1021137268</td><td>0.42</td><td>1.79</td>
-    </tr>
-  </tbody>
-</table>
-
-![ts-pattern-benchmark](https://github.com/bdbaraban/ts-pattern-benchmark/assets/34765317/8ddfd57f-123b-45f7-bbff-fb2968eb359b)
+![ts-pattern-benchmark](https://github.com/bdbaraban/ts-pattern-benchmark/assets/34765317/a2fc6292-1dba-433a-9bc7-72f2af9b889a)
