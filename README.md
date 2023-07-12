@@ -51,4 +51,4 @@ Finished 6 cases!
   </tbody>
 </table>
 
-![ts-pattern-benchmark](https://github.com/bdbaraban/ts-pattern-benchmark/assets/34765317/a2fc6292-1dba-433a-9bc7-72f2af9b889a)
+![ts-pattern-benchmark](https://github.com/bdbaraban/ts-pattern-benchmark/assets/34765317/8ddfd57f-123b-45f7-bbff-fb2968eb359b)
