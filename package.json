@@ -1,0 +1,19 @@
+{
+  "name": "ts-pattern-benchmark",
+  "version": "0.0.1",
+  "author": "@bdbaraban",
+  "description": "Benchmarking ts-pattern against built-in conditionals",
+  "license": "ISC",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@bdbaraban/prettier-config": "^0.0.2",
+    "benny": "^3.7.1",
+    "ts-node": "^10.9.1",
+    "ts-pattern": "^5.0.1",
+    "typescript": "^5.1.6"
+  },
+  "prettier": "@bdbaraban/prettier-config"
+}

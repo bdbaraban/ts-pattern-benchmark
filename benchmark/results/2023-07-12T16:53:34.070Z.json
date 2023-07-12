@@ -1,0 +1,51 @@
+{
+  "name": "ts-pattern-benchmark",
+  "date": "2023-07-12T16:53:34.070Z",
+  "version": null,
+  "results": [
+    {
+      "name": "exhaustive",
+      "ops": 1573453,
+      "margin": 0.44,
+      "percentSlower": 99.85
+    },
+    {
+      "name": "otherwise",
+      "ops": 1542397,
+      "margin": 0.66,
+      "percentSlower": 99.85
+    },
+    {
+      "name": "run",
+      "ops": 1353476,
+      "margin": 0.77,
+      "percentSlower": 99.87
+    },
+    {
+      "name": "if-else",
+      "ops": 1036731085,
+      "margin": 0.24,
+      "percentSlower": 0
+    },
+    {
+      "name": "switch",
+      "ops": 1030044003,
+      "margin": 0.29,
+      "percentSlower": 0.65
+    },
+    {
+      "name": "ternary",
+      "ops": 1026242770,
+      "margin": 0.36,
+      "percentSlower": 1.01
+    }
+  ],
+  "fastest": {
+    "name": "if-else",
+    "index": 3
+  },
+  "slowest": {
+    "name": "run",
+    "index": 2
+  }
+}
