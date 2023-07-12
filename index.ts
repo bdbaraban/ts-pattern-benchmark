@@ -51,35 +51,27 @@ const testRun = (digit: Digit) => {
 const testIfElse = (digit: Digit) => {
   if (digit === 0) {
     return 'zero';
-  }
-  if (digit === 1) {
+  } else if (digit === 1) {
     return 'one';
-  }
-  if (digit === 2) {
+  } else if (digit === 2) {
     return 'two';
-  }
-  if (digit === 3) {
+  } else if (digit === 3) {
     return 'three';
-  }
-  if (digit === 4) {
+  } else if (digit === 4) {
     return 'four';
-  }
-  if (digit === 5) {
+  } else if (digit === 5) {
     return 'five';
-  }
-  if (digit === 6) {
+  } else if (digit === 6) {
     return 'six';
-  }
-  if (digit === 7) {
+  } else if (digit === 7) {
     return 'seven';
-  }
-  if (digit === 8) {
+  } else if (digit === 8) {
     return 'eight';
-  }
-  if (digit === 9) {
+  } else if (digit === 9) {
     return 'nine';
+  } else {
+    return '';
   }
-  return '';
 };
 
 const testSwitch = (digit: Digit) => {
@@ -135,10 +127,10 @@ const testTernary = (digit: Digit) => {
 
 suite(
   'ts-pattern-benchmark',
-  add('exhaustive', () => testExhaustive(9)),
-  add('otherwise', () => testOtherwise(9)),
-  add('run', () => testRun(9)),
-  add('if-else', () => testIfElse(9)),
+  add('.exhaustive()', () => testExhaustive(9)),
+  add('.otherwise()', () => testOtherwise(9)),
+  add('.run()', () => testRun(9)),
+  add('if/else', () => testIfElse(9)),
   add('switch', () => testSwitch(9)),
   add('ternary', () => testTernary(9)),
   cycle(),

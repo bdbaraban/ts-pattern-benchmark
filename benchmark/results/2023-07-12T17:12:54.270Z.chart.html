@@ -28,7 +28,7 @@
   </head>
   <body>
     <div class="container">
-      <canvas id="chart1689181299979" width="16" height="9"></canvas>
+      <canvas id="chart1689181974270" width="16" height="9"></canvas>
     </div>
     <script>
       const format = (num) => {
@@ -51,18 +51,18 @@
           chunked.map((chunk) => chunk.join('')).join(' ') + fractionStr
         )
       }
-      const ctx1689181299979 = document
-        .getElementById('chart1689181299979')
+      const ctx1689181974270 = document
+        .getElementById('chart1689181974270')
         .getContext('2d')
-      const chart1689181299979 = new Chart(ctx1689181299979, {
+      const chart1689181974270 = new Chart(ctx1689181974270, {
         type: 'bar',
         data: {
-          labels: ["exhaustive","otherwise","run","if-else","switch","ternary"],
+          labels: [".exhaustive()",".otherwise()",".run()","if/else","switch","ternary"],
           datasets: [
             {
-              data: [1477428,1505013,1323050,1039004109,1041251639,1041806040],
-              backgroundColor: ["hsl(0.16800000000000068, 85%, 55%)","hsl(0.16800000000000068, 85%, 55%)","hsl(0.15599999999999456, 85%, 55%)","hsl(119.67600000000002, 85%, 55%)","hsl(119.94000000000001, 85%, 55%)","hsl(120, 85%, 55%)"],
-              borderColor: ["hsl(0.16800000000000068, 85%, 55%)","hsl(0.16800000000000068, 85%, 55%)","hsl(0.15599999999999456, 85%, 55%)","hsl(119.67600000000002, 85%, 55%)","hsl(119.94000000000001, 85%, 55%)","hsl(120, 85%, 55%)"],
+              data: [1440678,1482380,1313796,1039743389,1033490278,1021137268],
+              backgroundColor: ["hsl(0.16800000000000068, 85%, 55%)","hsl(0.16800000000000068, 85%, 55%)","hsl(0.15599999999999456, 85%, 55%)","hsl(120, 85%, 55%)","hsl(119.28000000000002, 85%, 55%)","hsl(117.852, 85%, 55%)"],
+              borderColor: ["hsl(0.16800000000000068, 85%, 55%)","hsl(0.16800000000000068, 85%, 55%)","hsl(0.15599999999999456, 85%, 55%)","hsl(120, 85%, 55%)","hsl(119.28000000000002, 85%, 55%)","hsl(117.852, 85%, 55%)"],
               borderWidth: 2,
             },
           ],
