@@ -6,7 +6,9 @@
   "license": "ISC",
   "main": "index.ts",
   "scripts": {
-    "test": "ts-node index.ts"
+    "test1": "ts-node --esm tests/always-last-digit.mts",
+    "test2": "ts-node --esm tests/random-digit.mts",
+    "test3": "ts-node --esm tests/nested-objects.mts"
   },
   "devDependencies": {
     "@bdbaraban/prettier-config": "^0.0.2",

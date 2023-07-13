@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" />
+    <title>ts-pattern-benchmark</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>name</th><th>ops</th><th>margin</th><th>percentSlower</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>.exhaustive()</td><td>2349006</td><td>0.13</td><td>95.33</td>
+        </tr><tr>
+          <td>.otherwise()</td><td>2342324</td><td>0.1</td><td>95.34</td>
+        </tr><tr>
+          <td>.run()</td><td>2327898</td><td>0.1</td><td>95.37</td>
+        </tr><tr>
+          <td>if/else</td><td>49697711</td><td>0.09</td><td>1.2</td>
+        </tr><tr>
+          <td>switch</td><td>50302329</td><td>0.08</td><td>0</td>
+        </tr><tr>
+          <td>ternary</td><td>50145325</td><td>0.27</td><td>0.31</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
