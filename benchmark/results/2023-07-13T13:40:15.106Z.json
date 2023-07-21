@@ -1,0 +1,27 @@
+{
+  "name": "ts-pattern-benchmark",
+  "date": "2023-07-13T13:40:15.106Z",
+  "version": null,
+  "results": [
+    {
+      "name": ".exhaustive()",
+      "ops": 424650,
+      "margin": 2.06,
+      "percentSlower": 96.63
+    },
+    {
+      "name": "if/else",
+      "ops": 12592823,
+      "margin": 0.13,
+      "percentSlower": 0
+    }
+  ],
+  "fastest": {
+    "name": "if/else",
+    "index": 1
+  },
+  "slowest": {
+    "name": ".exhaustive()",
+    "index": 0
+  }
+}
