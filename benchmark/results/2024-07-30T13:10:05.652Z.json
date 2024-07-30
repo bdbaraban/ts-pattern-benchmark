@@ -1,0 +1,51 @@
+{
+  "name": "always-last-digit",
+  "date": "2024-07-30T13:10:05.652Z",
+  "version": null,
+  "results": [
+    {
+      "name": ".exhaustive()",
+      "ops": 2078568,
+      "margin": 5.44,
+      "percentSlower": 99.83
+    },
+    {
+      "name": ".otherwise()",
+      "ops": 2479327,
+      "margin": 3.9,
+      "percentSlower": 99.79
+    },
+    {
+      "name": ".run()",
+      "ops": 1722901,
+      "margin": 4.86,
+      "percentSlower": 99.86
+    },
+    {
+      "name": "if/else",
+      "ops": 1192882513,
+      "margin": 0.39,
+      "percentSlower": 1.31
+    },
+    {
+      "name": "switch",
+      "ops": 1177491993,
+      "margin": 0.45,
+      "percentSlower": 2.59
+    },
+    {
+      "name": "ternary",
+      "ops": 1208765630,
+      "margin": 0.25,
+      "percentSlower": 0
+    }
+  ],
+  "fastest": {
+    "name": "ternary",
+    "index": 5
+  },
+  "slowest": {
+    "name": ".run()",
+    "index": 2
+  }
+}

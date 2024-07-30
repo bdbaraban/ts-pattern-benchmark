@@ -126,7 +126,7 @@ const testTernary = (digit: Digit) => {
 };
 
 suite(
-  'ts-pattern-benchmark',
+  'always-last-digit',
   add('.exhaustive()', () => testExhaustive(9)),
   add('.otherwise()', () => testOtherwise(9)),
   add('.run()', () => testRun(9)),

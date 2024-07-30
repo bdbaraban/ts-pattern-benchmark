@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" />
+    <title>always-last-digit</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>name</th><th>ops</th><th>margin</th><th>percentSlower</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>.exhaustive()</td><td>2078568</td><td>5.44</td><td>99.83</td>
+        </tr><tr>
+          <td>.otherwise()</td><td>2479327</td><td>3.9</td><td>99.79</td>
+        </tr><tr>
+          <td>.run()</td><td>1722901</td><td>4.86</td><td>99.86</td>
+        </tr><tr>
+          <td>if/else</td><td>1192882513</td><td>0.39</td><td>1.31</td>
+        </tr><tr>
+          <td>switch</td><td>1177491993</td><td>0.45</td><td>2.59</td>
+        </tr><tr>
+          <td>ternary</td><td>1208765630</td><td>0.25</td><td>0</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

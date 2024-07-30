@@ -65,7 +65,7 @@ const rand = () => {
 };
 
 suite(
-  'ts-pattern-benchmark',
+  'nested-objects',
   add('.exhaustive()', () => testExhaustive(rand())),
   add('if/else', () => testIfElse(rand())),
   cycle(),

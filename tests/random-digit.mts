@@ -128,7 +128,7 @@ const testTernary = (digit: Digit) => {
 const rand = () => Math.floor(Math.random() * 10) as Digit;
 
 suite(
-  'ts-pattern-benchmark',
+  'random-digit',
   add('.exhaustive()', () => testExhaustive(rand())),
   add('.otherwise()', () => testOtherwise(rand())),
   add('.run()', () => testRun(rand())),

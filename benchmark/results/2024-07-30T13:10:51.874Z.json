@@ -1,0 +1,27 @@
+{
+  "name": "nested-objects",
+  "date": "2024-07-30T13:10:51.874Z",
+  "version": null,
+  "results": [
+    {
+      "name": ".exhaustive()",
+      "ops": 295852,
+      "margin": 2.78,
+      "percentSlower": 97.63
+    },
+    {
+      "name": "if/else",
+      "ops": 12475090,
+      "margin": 2.17,
+      "percentSlower": 0
+    }
+  ],
+  "fastest": {
+    "name": "if/else",
+    "index": 1
+  },
+  "slowest": {
+    "name": ".exhaustive()",
+    "index": 0
+  }
+}

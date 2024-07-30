@@ -1,0 +1,51 @@
+{
+  "name": "random-digit",
+  "date": "2024-07-30T13:10:39.502Z",
+  "version": null,
+  "results": [
+    {
+      "name": ".exhaustive()",
+      "ops": 3597781,
+      "margin": 1.91,
+      "percentSlower": 97.09
+    },
+    {
+      "name": ".otherwise()",
+      "ops": 3072774,
+      "margin": 4.34,
+      "percentSlower": 97.52
+    },
+    {
+      "name": ".run()",
+      "ops": 2837388,
+      "margin": 3.67,
+      "percentSlower": 97.71
+    },
+    {
+      "name": "if/else",
+      "ops": 109463541,
+      "margin": 2.05,
+      "percentSlower": 11.56
+    },
+    {
+      "name": "switch",
+      "ops": 123764577,
+      "margin": 1.76,
+      "percentSlower": 0
+    },
+    {
+      "name": "ternary",
+      "ops": 106746704,
+      "margin": 2.28,
+      "percentSlower": 13.75
+    }
+  ],
+  "fastest": {
+    "name": "switch",
+    "index": 4
+  },
+  "slowest": {
+    "name": ".run()",
+    "index": 2
+  }
+}

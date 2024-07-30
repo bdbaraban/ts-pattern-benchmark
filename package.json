@@ -7,9 +7,9 @@
   "main": "index.ts",
   "scripts": {
     "test": "npm run test1 && npm run test2 && npm run test3",
-    "test1": "ts-node --esm tests/always-last-digit.mts",
-    "test2": "ts-node --esm tests/random-digit.mts",
-    "test3": "ts-node --esm tests/nested-objects.mts"
+    "test1": "node --loader ts-node/esm tests/always-last-digit.mts",
+    "test2": "node --loader ts-node/esm tests/random-digit.mts",
+    "test3": "node --loader ts-node/esm tests/nested-objects.mts"
   },
   "devDependencies": {
     "@bdbaraban/prettier-config": "^0.0.2",
